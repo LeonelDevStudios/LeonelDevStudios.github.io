@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #f2f2f2;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #1c1c1c;
+}
+h1 {
+  color: #5ed8ff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+.subtitulo {
+  color: #a8a8aa;
+  font-size: 1.1rem;
+}
+nav {
+  margin-top: 1rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: #5ed8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+.plugin-card {
+  background: #1a1a1a;
+  border-left: 4px solid #5ed8ff;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+.plugin-card h3 {
+  margin-top: 0;
+  color: #5ed8ff;
+}
+.plugin-card a {
+  background: #5ed8ff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+nav a.activo {
+  border-bottom: 2px solid #5ed8ff;
+  padding-bottom: 2px;
+}
+.grid-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.mini-card {
+  background: #1a1a1a;
+  border-left: 4px solid #5ed8ff;
+  padding: 1rem;
+  border-radius: 6px;
+  flex: 1 1 280px;
+  max-width: 300px;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mini-card h3 {
+  margin-top: 0;
+  color: #5ed8ff;
+}
+
+.mini-card a {
+  margin-top: 0.5rem;
+  background: #5ed8ff;
+  color: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fila-proyectos {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+
+.card-delgada {
+  width: 220px;
+  background: #1a1a1a;
+  border-left: 4px solid #5ed8ff;
+  padding: 1rem;
+  border-radius: 5px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-delgada h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #5ed8ff;
+}
+
+.card-delgada a {
+  margin-top: 0.7rem;
+  background: #5ed8ff;
+  color: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
